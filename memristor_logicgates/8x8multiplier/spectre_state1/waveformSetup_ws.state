@@ -1,0 +1,1069 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JavaBean CLASS="COM.cadence.awd.graph.GraphFrame">
+  <Properties>
+    <Property NAME="graph">
+      <JavaBean CLASS="COM.cadence.awd.graph.Rect2DGraph">
+        <Properties>
+          <Property NAME="backgroundName">black</Property>
+          <Property NAME="cursorOn">True</Property>
+          <Property NAME="dataSnapOn">False</Property>
+          <Property NAME="dependentAxis">
+            <JavaBean CLASS="COM.cadence.awd.graph.DepAxis">
+              <Properties>
+                <Property NAME="baseUnit">V</Property>
+                <Property NAME="defaultTitle">V</Property>
+                <Property NAME="forceOrigin">False</Property>
+                <Property NAME="foregroundName">black</Property>
+                <Property NAME="logScale">False</Property>
+                <Property NAME="majDivisions">4</Property>
+                <Property NAME="majGridsOn">True</Property>
+                <Property NAME="minDivisions">10</Property>
+                <Property NAME="minGridsOn">True</Property>
+                <Property NAME="minorForegroundName">0x272727</Property>
+                <Property NAME="nameId">0</Property>
+                <Property NAME="scaleMode">1</Property>
+                <Property NAME="sigDigits">3</Property>
+                <Property NAME="sigDigitsDefault">True</Property>
+                <Property NAME="tempStripFlag">False</Property>
+                <Property NAME="useDefaultTitle">True</Property>
+                <Property NAME="userMax">2.0</Property>
+                <Property NAME="userMin">-0.25</Property>
+                <Property NAME="zoomState">False</Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="displayDate">True</Property>
+          <Property NAME="displayType">5</Property>
+          <Property NAME="eyeDiagram">False</Property>
+          <Property NAME="fontName">Dialog</Property>
+          <Property NAME="fontSize">12</Property>
+          <Property NAME="fontStyle">0</Property>
+          <Property NAME="forceCommonLimits">False</Property>
+          <Property NAME="forceSquareAspect">False</Property>
+          <Property NAME="foregroundName">black</Property>
+          <Property NAME="freeze">False</Property>
+          <Property NAME="independentAxis">
+            <JavaBean CLASS="COM.cadence.awd.graph.IndepAxis">
+              <Properties>
+                <Property NAME="baseUnit">s</Property>
+                <Property NAME="defaultTitle">time</Property>
+                <Property NAME="forceOrigin">False</Property>
+                <Property NAME="foregroundName">black</Property>
+                <Property NAME="logScale">False</Property>
+                <Property NAME="majDivisions">4</Property>
+                <Property NAME="majGridsOn">True</Property>
+                <Property NAME="minDivisions">10</Property>
+                <Property NAME="minGridsOn">True</Property>
+                <Property NAME="minorForegroundName">0x272727</Property>
+                <Property NAME="nameId">0</Property>
+                <Property NAME="scaleMode">1</Property>
+                <Property NAME="sigDigits">3</Property>
+                <Property NAME="sigDigitsDefault">True</Property>
+                <Property NAME="useDefaultTitle">True</Property>
+                <Property NAME="userMax">2.5E-8</Property>
+                <Property NAME="userMin">0.0</Property>
+                <Property NAME="zoomState">False</Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="majorGridsForegroundName">verydarkgray</Property>
+          <Property NAME="majorGridsOn">True</Property>
+          <Property NAME="minorGridsForegroundName">0x272727</Property>
+          <Property NAME="minorGridsOn">True</Property>
+          <Property NAME="nameId">-1</Property>
+          <Property NAME="peakSnapOn">False</Property>
+          <Property NAME="runVarName">time</Property>
+          <Property NAME="stripChartOn">False</Property>
+          <Property NAME="subTitle"></Property>
+          <Property NAME="title">Transient Response</Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">tran-tran</Property>
+                <Property NAME="defaultTitle">/s15</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">0</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/root/simulation/8x8multiplier/spectre/schematic/psf</Property>
+                <Property NAME="eyeEnd">2.4306547987067056E-8</Property>
+                <Property NAME="eyeInterval">2.4306547987067056E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">0xbe4025</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="indepUnit">s</Property>
+                <Property NAME="name">/s15</Property>
+                <Property NAME="nameId">0</Property>
+                <Property NAME="stripIndex">0</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">6</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/s15</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">s15</Property>
+                      <Property NAME="dataDirectory">/root/simulation/8x8multiplier/spectre/schematic/psf</Property>
+                      <Property NAME="dataSet">tran-tran</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">s15</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:1637760.21874</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">tran-tran</Property>
+                <Property NAME="defaultTitle">/s14</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">0</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/root/simulation/8x8multiplier/spectre/schematic/psf</Property>
+                <Property NAME="eyeEnd">2.4306547987067056E-8</Property>
+                <Property NAME="eyeInterval">2.4306547987067056E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">red</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="indepUnit">s</Property>
+                <Property NAME="name">/s14</Property>
+                <Property NAME="nameId">1</Property>
+                <Property NAME="stripIndex">1</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">9</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/s14</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">s14</Property>
+                      <Property NAME="dataDirectory">/root/simulation/8x8multiplier/spectre/schematic/psf</Property>
+                      <Property NAME="dataSet">tran-tran</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">s14</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:17771422.21875</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">tran-tran</Property>
+                <Property NAME="defaultTitle">/s13</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">0</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/root/simulation/8x8multiplier/spectre/schematic/psf</Property>
+                <Property NAME="eyeEnd">2.4306547987067056E-8</Property>
+                <Property NAME="eyeInterval">2.4306547987067056E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">0xffbef1</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="indepUnit">s</Property>
+                <Property NAME="name">/s13</Property>
+                <Property NAME="nameId">2</Property>
+                <Property NAME="stripIndex">2</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">14</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/s13</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">s13</Property>
+                      <Property NAME="dataDirectory">/root/simulation/8x8multiplier/spectre/schematic/psf</Property>
+                      <Property NAME="dataSet">tran-tran</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">s13</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:20914121.21876</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">tran-tran</Property>
+                <Property NAME="defaultTitle">/s12</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">0</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/root/simulation/8x8multiplier/spectre/schematic/psf</Property>
+                <Property NAME="eyeEnd">2.4306547987067056E-8</Property>
+                <Property NAME="eyeInterval">2.4306547987067056E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">0xff8000</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="indepUnit">s</Property>
+                <Property NAME="name">/s12</Property>
+                <Property NAME="nameId">3</Property>
+                <Property NAME="stripIndex">3</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">8</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/s12</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">s12</Property>
+                      <Property NAME="dataDirectory">/root/simulation/8x8multiplier/spectre/schematic/psf</Property>
+                      <Property NAME="dataSet">tran-tran</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">s12</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:1127949.21877</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">tran-tran</Property>
+                <Property NAME="defaultTitle">/s11</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">0</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/root/simulation/8x8multiplier/spectre/schematic/psf</Property>
+                <Property NAME="eyeEnd">2.4306547987067056E-8</Property>
+                <Property NAME="eyeInterval">2.4306547987067056E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">0xcc66</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="indepUnit">s</Property>
+                <Property NAME="name">/s11</Property>
+                <Property NAME="nameId">4</Property>
+                <Property NAME="stripIndex">4</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">15</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/s11</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">s11</Property>
+                      <Property NAME="dataDirectory">/root/simulation/8x8multiplier/spectre/schematic/psf</Property>
+                      <Property NAME="dataSet">tran-tran</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">s11</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:7249664.21878</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">tran-tran</Property>
+                <Property NAME="defaultTitle">/s10</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">0</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/root/simulation/8x8multiplier/spectre/schematic/psf</Property>
+                <Property NAME="eyeEnd">2.4306547987067056E-8</Property>
+                <Property NAME="eyeInterval">2.4306547987067056E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">blue</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="indepUnit">s</Property>
+                <Property NAME="name">/s10</Property>
+                <Property NAME="nameId">5</Property>
+                <Property NAME="stripIndex">5</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">7</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/s10</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">s10</Property>
+                      <Property NAME="dataDirectory">/root/simulation/8x8multiplier/spectre/schematic/psf</Property>
+                      <Property NAME="dataSet">tran-tran</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">s10</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:8493421.21879</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">tran-tran</Property>
+                <Property NAME="defaultTitle">/s9</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">0</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/root/simulation/8x8multiplier/spectre/schematic/psf</Property>
+                <Property NAME="eyeEnd">2.4306547987067056E-8</Property>
+                <Property NAME="eyeInterval">2.4306547987067056E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">0x9900e6</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="indepUnit">s</Property>
+                <Property NAME="name">/s9</Property>
+                <Property NAME="nameId">6</Property>
+                <Property NAME="stripIndex">6</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">6</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/s9</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">s9</Property>
+                      <Property NAME="dataDirectory">/root/simulation/8x8multiplier/spectre/schematic/psf</Property>
+                      <Property NAME="dataSet">tran-tran</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">s9</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:11534967.21880</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">tran-tran</Property>
+                <Property NAME="defaultTitle">/s8</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">0</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/root/simulation/8x8multiplier/spectre/schematic/psf</Property>
+                <Property NAME="eyeEnd">2.4306547987067056E-8</Property>
+                <Property NAME="eyeInterval">2.4306547987067056E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">0xd9cc00</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="indepUnit">s</Property>
+                <Property NAME="name">/s8</Property>
+                <Property NAME="nameId">7</Property>
+                <Property NAME="stripIndex">7</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">9</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/s8</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">s8</Property>
+                      <Property NAME="dataDirectory">/root/simulation/8x8multiplier/spectre/schematic/psf</Property>
+                      <Property NAME="dataSet">tran-tran</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">s8</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:1398885.21881</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">tran-tran</Property>
+                <Property NAME="defaultTitle">/s7</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">0</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/root/simulation/8x8multiplier/spectre/schematic/psf</Property>
+                <Property NAME="eyeEnd">2.4306547987067056E-8</Property>
+                <Property NAME="eyeInterval">2.4306547987067056E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">0xd9e6ff</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="indepUnit">s</Property>
+                <Property NAME="name">/s7</Property>
+                <Property NAME="nameId">8</Property>
+                <Property NAME="stripIndex">8</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">14</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/s7</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">s7</Property>
+                      <Property NAME="dataDirectory">/root/simulation/8x8multiplier/spectre/schematic/psf</Property>
+                      <Property NAME="dataSet">tran-tran</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">s7</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:4010335.21882</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">tran-tran</Property>
+                <Property NAME="defaultTitle">/s6</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">0</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/root/simulation/8x8multiplier/spectre/schematic/psf</Property>
+                <Property NAME="eyeEnd">2.4306547987067056E-8</Property>
+                <Property NAME="eyeInterval">2.4306547987067056E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">0xbe4025</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="indepUnit">s</Property>
+                <Property NAME="name">/s6</Property>
+                <Property NAME="nameId">9</Property>
+                <Property NAME="stripIndex">9</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">8</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/s6</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">s6</Property>
+                      <Property NAME="dataDirectory">/root/simulation/8x8multiplier/spectre/schematic/psf</Property>
+                      <Property NAME="dataSet">tran-tran</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">s6</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:26899404.21883</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">tran-tran</Property>
+                <Property NAME="defaultTitle">/s5</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">0</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/root/simulation/8x8multiplier/spectre/schematic/psf</Property>
+                <Property NAME="eyeEnd">2.4306547987067056E-8</Property>
+                <Property NAME="eyeInterval">2.4306547987067056E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">red</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="indepUnit">s</Property>
+                <Property NAME="name">/s5</Property>
+                <Property NAME="nameId">10</Property>
+                <Property NAME="stripIndex">10</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">15</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/s5</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">s5</Property>
+                      <Property NAME="dataDirectory">/root/simulation/8x8multiplier/spectre/schematic/psf</Property>
+                      <Property NAME="dataSet">tran-tran</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">s5</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:8740319.21884</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">tran-tran</Property>
+                <Property NAME="defaultTitle">/s4</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">0</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/root/simulation/8x8multiplier/spectre/schematic/psf</Property>
+                <Property NAME="eyeEnd">2.4306547987067056E-8</Property>
+                <Property NAME="eyeInterval">2.4306547987067056E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">0xffbef1</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="indepUnit">s</Property>
+                <Property NAME="name">/s4</Property>
+                <Property NAME="nameId">11</Property>
+                <Property NAME="stripIndex">11</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">7</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/s4</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">s4</Property>
+                      <Property NAME="dataDirectory">/root/simulation/8x8multiplier/spectre/schematic/psf</Property>
+                      <Property NAME="dataSet">tran-tran</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">s4</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:8029519.21885</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">tran-tran</Property>
+                <Property NAME="defaultTitle">/s3</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">0</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/root/simulation/8x8multiplier/spectre/schematic/psf</Property>
+                <Property NAME="eyeEnd">2.4306547987067056E-8</Property>
+                <Property NAME="eyeInterval">2.4306547987067056E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">0xff8000</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="indepUnit">s</Property>
+                <Property NAME="name">/s3</Property>
+                <Property NAME="nameId">12</Property>
+                <Property NAME="stripIndex">12</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">6</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/s3</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">s3</Property>
+                      <Property NAME="dataDirectory">/root/simulation/8x8multiplier/spectre/schematic/psf</Property>
+                      <Property NAME="dataSet">tran-tran</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">s3</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:27851004.21886</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">tran-tran</Property>
+                <Property NAME="defaultTitle">/s2</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">0</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/root/simulation/8x8multiplier/spectre/schematic/psf</Property>
+                <Property NAME="eyeEnd">2.4306547987067056E-8</Property>
+                <Property NAME="eyeInterval">2.4306547987067056E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">0xcc66</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="indepUnit">s</Property>
+                <Property NAME="name">/s2</Property>
+                <Property NAME="nameId">13</Property>
+                <Property NAME="stripIndex">13</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">9</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/s2</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">s2</Property>
+                      <Property NAME="dataDirectory">/root/simulation/8x8multiplier/spectre/schematic/psf</Property>
+                      <Property NAME="dataSet">tran-tran</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">s2</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:16128641.21887</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">tran-tran</Property>
+                <Property NAME="defaultTitle">/s1</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">0</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/root/simulation/8x8multiplier/spectre/schematic/psf</Property>
+                <Property NAME="eyeEnd">2.4306547987067056E-8</Property>
+                <Property NAME="eyeInterval">2.4306547987067056E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">blue</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="indepUnit">s</Property>
+                <Property NAME="name">/s1</Property>
+                <Property NAME="nameId">14</Property>
+                <Property NAME="stripIndex">14</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">14</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/s1</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">s1</Property>
+                      <Property NAME="dataDirectory">/root/simulation/8x8multiplier/spectre/schematic/psf</Property>
+                      <Property NAME="dataSet">tran-tran</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">s1</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:29583770.21888</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">tran-tran</Property>
+                <Property NAME="defaultTitle">/s0</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">0</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/root/simulation/8x8multiplier/spectre/schematic/psf</Property>
+                <Property NAME="eyeEnd">2.4306547987067056E-8</Property>
+                <Property NAME="eyeInterval">2.4306547987067056E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">0x9900e6</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="indepUnit">s</Property>
+                <Property NAME="name">/s0</Property>
+                <Property NAME="nameId">15</Property>
+                <Property NAME="stripIndex">15</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">8</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/s0</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">s0</Property>
+                      <Property NAME="dataDirectory">/root/simulation/8x8multiplier/spectre/schematic/psf</Property>
+                      <Property NAME="dataSet">tran-tran</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">s0</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:30821586.21889</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">tran-tran</Property>
+                <Property NAME="defaultTitle">/a4</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">0</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/root/simulation/8x8multiplier/spectre/schematic/psf</Property>
+                <Property NAME="eyeEnd">2.4306547987067056E-8</Property>
+                <Property NAME="eyeInterval">2.4306547987067056E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">0xd9cc00</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="indepUnit">s</Property>
+                <Property NAME="name">/a4</Property>
+                <Property NAME="nameId">16</Property>
+                <Property NAME="stripIndex">16</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">15</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/a4</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">a4</Property>
+                      <Property NAME="dataDirectory">/root/simulation/8x8multiplier/spectre/schematic/psf</Property>
+                      <Property NAME="dataSet">tran-tran</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">a4</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:21599928.21890</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">tran-tran</Property>
+                <Property NAME="defaultTitle">/a5</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">0</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/root/simulation/8x8multiplier/spectre/schematic/psf</Property>
+                <Property NAME="eyeEnd">2.4306547987067056E-8</Property>
+                <Property NAME="eyeInterval">2.4306547987067056E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">0xd9e6ff</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="indepUnit">s</Property>
+                <Property NAME="name">/a5</Property>
+                <Property NAME="nameId">17</Property>
+                <Property NAME="stripIndex">17</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">7</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/a5</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">a5</Property>
+                      <Property NAME="dataDirectory">/root/simulation/8x8multiplier/spectre/schematic/psf</Property>
+                      <Property NAME="dataSet">tran-tran</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">a5</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:5160781.21891</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">tran-tran</Property>
+                <Property NAME="defaultTitle">/a6</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">0</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/root/simulation/8x8multiplier/spectre/schematic/psf</Property>
+                <Property NAME="eyeEnd">2.4306547987067056E-8</Property>
+                <Property NAME="eyeInterval">2.4306547987067056E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">0xbe4025</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="indepUnit">s</Property>
+                <Property NAME="name">/a6</Property>
+                <Property NAME="nameId">18</Property>
+                <Property NAME="stripIndex">18</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">6</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/a6</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">a6</Property>
+                      <Property NAME="dataDirectory">/root/simulation/8x8multiplier/spectre/schematic/psf</Property>
+                      <Property NAME="dataSet">tran-tran</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">a6</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:4516879.21892</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">tran-tran</Property>
+                <Property NAME="defaultTitle">/a7</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">0</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/root/simulation/8x8multiplier/spectre/schematic/psf</Property>
+                <Property NAME="eyeEnd">2.4306547987067056E-8</Property>
+                <Property NAME="eyeInterval">2.4306547987067056E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">red</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="indepUnit">s</Property>
+                <Property NAME="name">/a7</Property>
+                <Property NAME="nameId">19</Property>
+                <Property NAME="stripIndex">19</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">9</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/a7</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">a7</Property>
+                      <Property NAME="dataDirectory">/root/simulation/8x8multiplier/spectre/schematic/psf</Property>
+                      <Property NAME="dataSet">tran-tran</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">a7</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:10374443.21893</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="useDefaultSubTitle">True</Property>
+          <Property NAME="useDefaultTitle">False</Property>
+          <Property NAME="visible">True</Property>
+          <Property NAME="visibleDigitalRows">4</Property>
+          <Property NAME="visibleStripChartRows">6</Property>
+          <Property NAME="zoomManager">
+            <JavaBean CLASS="COM.cadence.awd.graph.ZoomManager">
+              <Properties>
+                <Property NAME="xStartMax">0.0</Property>
+                <Property NAME="xStartMin">0.0</Property>
+                <Property NAME="yStartMax">0.0</Property>
+                <Property NAME="yStartMin">0.0</Property>
+                <Property NAME="zoomRow">0</Property>
+                <Property NAME="zoomType">0</Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="zoomState">False</Property>
+        </Properties>
+      </JavaBean>
+    </Property>
+    <Property NAME="height">590</Property>
+    <Property NAME="labelText"></Property>
+    <Property NAME="stripChartState">False</Property>
+    <Property NAME="width">620</Property>
+    <Property NAME="xLocation">577</Property>
+    <Property NAME="yLocation">185</Property>
+  </Properties>
+</JavaBean>
+

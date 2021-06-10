@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      root
+HostName                       localhost.localdomain
+ProcessIdentifier              3345
+ProcessCreationTime_UTC        1533330182
+ProcessCreationTime_Readable   Fri Aug  3 23:03:02 2018 EET
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/eslam/Desktop/MemMult/memristor_multipliers/8x8_signed_tb/schematic/sch.oa.cdslck
+TimeEditLocked                 Tue Aug 14 11:31:01 2018 EET

@@ -1,0 +1,41 @@
+// VerilogA for memristor_multipliers, ADC, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module ADC(vin,vout);
+
+input vin;
+output[0:7] vout;
+electrical[0:7] vout;
+electrical vin;
+
+real in_v;
+integer d[0:7];
+genvar i;
+
+analog begin
+	in_v = V(vin);	
+
+	for(i=7;i>=0;i=i-1)begin
+
+		if(in_v >= pow(2,i)) begin
+			d[i] = 1;
+			in_v = in_v - pow(2,i);	
+		end
+		else if(in_v < pow(2,i)) begin
+			d[i] = 0;
+		end	
+	
+	end
+	V(vout[0]) <+ transition(d[0]*1.8);
+	V(vout[1]) <+ transition(d[1]*1.8);
+	V(vout[2]) <+ transition(d[2]*1.8);
+	V(vout[3]) <+ transition(d[3]*1.8);
+	V(vout[4]) <+ transition(d[4]*1.8);
+	V(vout[5]) <+ transition(d[5]*1.8);
+	V(vout[6]) <+ transition(d[6]*1.8);
+	V(vout[7]) <+ transition(d[7]*1.8);
+end
+
+endmodule

@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      root
+HostName                       localhost.localdomain
+ProcessIdentifier              3325
+ProcessCreationTime_UTC        1526683590
+ProcessCreationTime_Readable   Sat May 19 00:46:30 2018 EET
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/eslam/Desktop/memristor_logicgates/1x4multblock/schematic/sch.oa.cdslck
+TimeEditLocked                 Fri Aug  3 23:13:22 2018 EET

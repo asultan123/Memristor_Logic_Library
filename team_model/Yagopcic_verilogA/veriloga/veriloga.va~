@@ -1,0 +1,74 @@
+// VerilogA for team_model, Yagopcic_model_verilogA, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+// Multiplicitive functions to ensure zero state
+// variable motion at memristor boundaries
+
+module Yagopcic_verilogA(TE, BE, XSV);
+inout TE;
+inout BE;
+output XSV;
+electrical TE,BE,XSV, gnd;
+ground gnd;
+
+parameter real a1=0.165;
+parameter real a2=0.165;
+parameter real b=0.05;
+parameter real Vp=2.86;
+parameter real Vn=3.56;
+parameter real Ap=550000000;
+parameter real An=400000000;
+parameter real xp=0.9;
+parameter real xn=0.9;
+parameter real alphap=20;
+parameter real alphan=20;
+parameter real xo=0.01;
+parameter real eta=1;
+
+analog function real wp;
+real Vin; input Vin;
+begin
+	wp = (xp/(1-xp))-(Vin/(1-xp))+1;
+end
+endfunction 
+
+analog function real wn;
+real Vin; input Vin;
+begin
+	wn = Vin/(1-xn);
+end
+endfunction
+
+// Function G(V(t)) - Describes the device threshold
+analog function real G;
+real Vin; input Vin;
+begin
+	G = (Vin <= Vp)?((Vin >= -Vn)?0:-An*(exp(-Vin)-exp(Vn))):Ap*(exp(Vin)-exp(Vp));
+end
+endfunction
+
+
+// Function F(V(t),x(t)) - Describes the SV motion 
+analog function real F;
+real V1,V2; input V1,V2;
+begin
+	F = (eta*V1>=0)? ((V2>= xp)?exp(-alphap*(V2-xp))*wp(V2):1) : ((V2<=(1-xn))?exp(alphan*(V2+xn-1))*wn(V2):1);
+end
+endfunction
+
+// IV Response - Hyperbolic sine due to MIM structure
+analog function real IVRel;
+real V1,V2; input V1,V2;
+begin 
+	IVRel = (V1>=0)?a1*V2*sinh(b*V1):a2*V2*sinh(b*V1);
+end
+endfunction
+
+analog begin
+	V(XSV) <+ idt(eta*F(V(TE,BE),V(XSV))*G(V(TE,BE)),0);
+	I(BE,TE) <+ IVRel(V(TE,BE),V(XSV));
+end
+
+endmodule

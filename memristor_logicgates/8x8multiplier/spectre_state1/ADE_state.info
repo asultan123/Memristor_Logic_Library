@@ -1,0 +1,3 @@
+projectDir = '"~/simulation"
+designInfo = '("memristor_logicgates" "8x8multiplier" "schematic" "spectre")
+descriptionText = "None"

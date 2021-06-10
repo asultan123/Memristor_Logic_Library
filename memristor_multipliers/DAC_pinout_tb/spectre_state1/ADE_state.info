@@ -1,0 +1,3 @@
+projectDir = '"~/simulation"
+designInfo = '("memristor_multipliers" "DAC_pinout_tb" "schematic" "spectre")
+descriptionText = "None"

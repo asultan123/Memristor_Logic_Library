@@ -1,0 +1,27 @@
+// VerilogA for memristor_multipliers, DAC, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module DAC(vin,vout);
+
+parameter real mid = 0.9;
+parameter real precision = 8;
+
+input[0:precision-1] vin;
+output vout; 
+electrical[0:precision-1] vin;
+electrical vout;
+real res;
+genvar i;
+
+analog begin
+	res = 0;
+	for(i=0;i<precision;i=i+1)begin
+		res = res + (V(vin[i])>mid)*pow(2,i); 	
+	end
+	V(vout) <+ res;
+end
+
+
+endmodule
